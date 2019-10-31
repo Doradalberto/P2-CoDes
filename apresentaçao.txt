@@ -1,0 +1,34 @@
+APRESENTAR A PERSONA
+- Julia 
+- mulher resiliente e muito trabalhadora
+- tem 32 anos
+- casada
+- filha de quatro anos 
+- mae preocupada e dedicada 
+- tem um furão como animal de estimação que o trata como um segundo filho 
+- nasceu e morou em São Paulo a vida inteira
+- tem grande carinho pelos animais e é a favor da humanizacao dos pets.
+- filha unica e tinha um cachorro que a acompanhou durante a infancia. 
+- Julia acredita que os animais sao fundamentais para o desenvovlimento das criancas
+
+- Gostaria de estudar veterinaria para futuramente ajudar animais necessitados
+- seu amor por animais a fez ter interesse em trabalhar em petshops.
+- Atualmente trabalha como recepcionista no petpet. (9h - 18h)
+- realizar cursos de banho e tosa (sem tempo irmáo)
+- trabalho muito mecanico, nao gosta da burocracia pois demanda tempo
+
+QUAL O PROBLEMA QUE O GRUPO PRETENDE RESOLVER
+
+- Como podemos ajudar a Julia a tornar seu trabalho menos burocratico e cansativo?
+
+
+PROPÓSITO DO APLICATIVO
+
+- app de perguntas binarias que facilita os processos
+
+
+3 SITUAÇÕES QUE IMAGINAMOS O APLICATIVO SENDO USADO
+
+- Cadastro de cliente novos
+- Encaminhar pet para algum servico 
+- Agendamento agil de pets
