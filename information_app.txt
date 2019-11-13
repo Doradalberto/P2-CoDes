@@ -4,7 +4,7 @@
 	Roxo: #7c6dc0
 	Azul: #697fe4
 	Amarelo: #fdad1a
-	Vermelho: #fc5328
+	Vermelho: #ff3028
 
  > Fonte
 
