@@ -19,11 +19,19 @@
 	}
 
 .C1_L {
-	border-width: 1rem;
+	/*border-width: 1rem;
 	border-color: blue;
-	border-style: solid;
-	display: inline-flex;
+	border-style: solid;*/
+	/*display: inline-flex;*/
 	margin-right: 6rem;
+}
+
+.C1_L img {
+	width:90px;
+	height: 70px;
+  	/*border-width: 1rem;
+	border-color: pink;
+	border-style: solid;*/
 }
 
 .C2 {
