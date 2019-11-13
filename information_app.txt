@@ -1,5 +1,10 @@
 
  > Cores
+	Verde: #8ee9a6
+	Roxo: #7c6dc0
+	Azul: #697fe4
+	Amarelo: #fdad1a
+	Vermelho: #fc5328
 
  > Fonte
 
@@ -7,4 +12,4 @@
 
  > Logo
 
- >
+ > Daltonismo (resumo)
