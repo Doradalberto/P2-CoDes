@@ -9,9 +9,8 @@
 > Cadastro de produtos
 
 
-Vantagens do celular (Câmera, Mobilidade, Alarme, QR Code)
+vantagens do celular (Câmera, Mobilidade, Alarme)
 
--------------------------------------------------------------
 
 > "Meu Petshop"
     - Cadastro
@@ -21,8 +20,10 @@ Vantagens do celular (Câmera, Mobilidade, Alarme, QR Code)
     - Dogs hospedados 
          - Hotel
          - Day Care
-		
 
--------------------------------------------------------------
-
-
+> Meu Petshop 2.0 - Protocolo de serviços
+   - Atendimento ao cliente
+-- Perguntas bináriasn
+     - Cadastro (S/N)
+     - Serviços
+     - 
