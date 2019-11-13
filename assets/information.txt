@@ -1,4 +1,3 @@
-
  > Cores
 	Verde: #8ee9a6
 	Roxo: #7c6dc0
@@ -7,9 +6,4 @@
 	Vermelho: #ff3028
 
  > Fonte
-
- > Layout
-
- > Logo
-
- > Daltonismo (resumo)
+	Muli https://fonts.google.com/specimen/Muli
