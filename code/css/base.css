@@ -1,0 +1,47 @@
+@media(max-width: 400px){
+
+}
+
+.C1 {
+	border-width: 1rem;
+	border-color: yellow;
+	border-style: solid;
+	background-color: red;
+
+	font-size: 2rem;
+	/*text-align: center;*/
+
+	width: fixed;
+	height: 6rem;
+
+	display: flex-inline;
+
+	}
+
+.C1_L {
+	border-width: 1rem;
+	border-color: blue;
+	border-style: solid;
+	display: inline-flex;
+	margin-right: 6rem;
+}
+
+.C2 {
+	border-width: 1rem;
+	border-color: orange;
+	border-style: solid;
+	background-color: yellow;
+
+	font-size: 4rem;
+	text-align: center;
+
+	width: fixed;
+	height: 10rem;
+
+	margin-top: 6rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+
+	display: flex-inline;
+	}
+
