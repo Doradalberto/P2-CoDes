@@ -12,6 +12,11 @@ p, a{
 	color: white;
 	font-family: 'Muli', sans-serif;
 }
+form {
+	font-size:60px;
+	border:none;
+	font-family: 'Muli', sans-serif;
+}
 
 .Botao {
 	cursor: pointer;
