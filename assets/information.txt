@@ -7,3 +7,11 @@
 
  > Fonte
 	Muli https://fonts.google.com/specimen/Muli
+
+
+
+> efeitos
+adicionar um novo dog com o +
+dentro do perfil do dog, opção de checkout "apagar" o dog da lista
+
+fazer os dogs (Da lista do H/DC) com o firebase (p/ não ter que criar a mesma pagina mil vezes)
