@@ -123,6 +123,22 @@ p, a{
 	background-color: white;
 }
 
+.campo_cpf {
+	align-items: center;
+	width: 50rem;
+	height: 1rem;
+	margin-top: 6rem;
+	font-size: 4rem;
+	color:white;
+	text-align: center;
+}
+
+.imagem-dono{
+	align-items: center;
+	width: 40rem;
+	margin-top: 6rem;
+}
+
 @media (max-height: 500px){
 	body{
 		display: none;
