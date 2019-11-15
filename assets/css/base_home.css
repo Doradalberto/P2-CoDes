@@ -123,21 +123,31 @@ p, a{
 	background-color: white;
 }
 
-.campo_cpf {
-	align-items: center;
-	width: 50rem;
-	height: 1rem;
-	margin-top: 6rem;
-	font-size: 4rem;
-	color:white;
-	text-align: center;
-}
+button {
+	background-color: #fdad1a;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 17px;
+	font-family: Raleway;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	opacity: 0.8;
+  }
 
 .imagem-dono{
 	align-items: center;
 	width: 40rem;
 	margin-top: 6rem;
 }
+
+form{
+	font-size: 60px;
+	margin-top: 6rem;
+}
+
 
 @media (max-height: 500px){
 	body{
