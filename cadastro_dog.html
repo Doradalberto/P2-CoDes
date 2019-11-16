@@ -3,10 +3,10 @@
 <head>
 	<title> Cadastro </title>
 	<link href="assets/css/reset.css" rel="reset">
-	<link href="assets/css/do.css" rel="stylesheet">
+	<link href="assets/css/base_home.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 	<div class="PC">
@@ -22,7 +22,7 @@
 	</div>
 	<div class="Container2_lista"> 
 		
-<form class="cadastro-dono" method="post">
+	<form class="cadastro-dono" method="post">
 		<p>Cadastro Animal</p>
 
 		<div class="item">
@@ -30,7 +30,7 @@
 		</div>
 
 		<div class="item">
-			<input placeholder="Nome..." type="text" name="testo" required>
+			<input placeholder="Nome..." type="text" name="texto" required>
 		</div>
 
 		<div class="item">
@@ -78,14 +78,19 @@
 </body>
 
 <style type="text/css">
+	body{
+		margin: 0px;
+	}
 	.cadastro-dono {
 		flex-direction: column;
-		padding: 3rem;
 		width: 100%;
 	}
 	.cadastro-dono p{
 		font-size: 5rem;
 		width: 100%;
+	}
+	.Container2_lista{
+		margin: 45px;
 	}
 	.item {
 		width: 100%;
@@ -115,6 +120,9 @@
 		margin: 0 auto;
 		margin-top: 1rem;
 		color: white;
+	}
+	input, select, option{
+		font-size: 45px;
 	}
 </style>
 

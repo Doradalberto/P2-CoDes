@@ -13,6 +13,12 @@ p, a{
 	font-family: 'Muli', sans-serif;
 }
 
+form {
+	font-size:60px;
+	border:none;
+	font-family: 'Muli', sans-serif;
+}
+
 .Botao {
 	cursor: pointer;
 	width: 100%;
@@ -77,7 +83,7 @@ p, a{
 	text-align: center;
 	width: 50rem;
 	height: 10rem;
-	margin-top: 6rem;
+	margin-top: 5rem;
 	margin-left: 6rem;
 	margin-right: 6rem;
 	display: flex;
@@ -145,7 +151,7 @@ button {
 
 form{
 	font-size: 60px;
-	margin-top: 6rem;
+	/*margin-top: 6rem;*/
 }
 
 

@@ -5,7 +5,8 @@
 	<link href="assets/css/reset.css" rel="reset">
 	<link href="assets/css/base_home.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 	<div class="PC">
@@ -20,23 +21,75 @@
 		</div> 
 	</div>
 	<div class="Container2_lista"> 
-		<p style="font-size: 4.5rem; margin-top: 2rem;"> Cadastrado </p>
-			<form method="post" action="/receber_dados.php">
-				Cpf: <input type="number" name="fname"><br>
-				<button type="button" id="nextBtn" onclick="nextPrev(1)">Enviar	</button>
-			</form>
-		<div>
-			<img class="imagem-dono" src="assets/img/fotominha.jpeg" alt="Foto do dono">	
+
+		<form class="cadastro-dono" method="post">
+		<p>Cadastro</p>
+
+		<div class="item">
+			<label for="cpf">CPF:</label>
 		</div>
+
+		<div class="item">
+			<input type="number" name="cpf" placeholder="CPF..." required>
+		</div>
+
+		<input type="submit" name="Submit this form" value="Buscar Cadastro">
+
+	</form>
 	</div>
 	<div class="Container3">
 		<a href="cadastro.html"><img src="assets/img/seta_v.png" style="width: 4.5rem; margin-right: 4rem"></a>
-		<div class="Progress_Bar" style="width: 100px; margin-top: 2rem;">
+		<div class="Progress_Bar" style="width: 400px; margin-top: 2rem;">
 		</div>
-		<div class="Progress_Bar2" style="width: 500px; margin-top: 2rem;">
+		<div class="Progress_Bar2" style="width: 200px; margin-top: 2rem;">
 		</div>
-		<a href="#"><img src="assets/img/seta.png" style="width: 4.5rem; margin-left: 4rem;"></a>
+		<a href="cadastro_dog.html"><input type="image" src="assets/img/seta.png" alt="Submit" style="width: 4.5rem; margin-left: 4rem;"></a>
+		<!-- <a href="cadastro_dog.html"><img src="assets/img/seta.png" style="width: 4.5rem; margin-left: 4rem;"></a> -->
 	</div>
 </body>
+
+<style type="text/css">
+	.cadastro-dono {
+		flex-direction: column;
+		width: 100%;
+	}
+	.cadastro-dono p{
+		font-size: 5rem;
+		width: 100%;
+	}
+	.Container2_lista{
+		margin: 45px;
+	}
+	.item {
+		width: 100%;
+		margin-top: 10px;
+	}
+	input[type=email], input[type=text] , input[type=number]{
+		border-radius: 2rem;
+		width: 100%;
+		height: 80px;
+		border:none;
+		padding-left: 10px;
+	}
+	form p{
+		text-align: center;
+	}
+	input[type=submit] {
+		border-radius: 2rem;
+		width: 600px;
+		text-align: center;
+		background-color: ;
+		cursor: pointer;
+		height: 100px;
+		border: none;
+		display: block;
+		margin: 0 auto;
+		margin-top: 4rem;
+		color: white;
+	}
+	input{
+		font-size: 45px;
+	}
+</style>
 
 </html> 
