@@ -26,6 +26,13 @@ form {
 	text-align: center;
 }
 
+.Botao2 {
+	cursor: pointer;
+	width: 65%;
+	align-items: center;
+	text-align: center;
+}
+
 .Container1 {
 	background-color: #697fe4;
 	font-size: 7rem;

@@ -33,10 +33,15 @@
 			<input type="number" name="cpf" placeholder="CPF..." required>
 		</div>
 
-		<input type="submit" name="Submit this form" value="Buscar Cadastro">
+		<!-- <input type="submit" name="Submit this form" value="Buscar Cadastro"> -->
 
+		<button onclick="foto()">Buscar Cadastro</button>
+		<div id="cliente" style="display: none">
+			<img src="assets/img/fotominha.jpeg" style="width: 800px; margin-top: 3rem;">
+		</div>
 	</form>
 	</div>
+
 	<div class="Container3">
 		<a href="cadastro.html"><img src="assets/img/seta_v.png" style="width: 4.5rem; margin-right: 4rem"></a>
 		<div class="Progress_Bar" style="width: 400px; margin-top: 2rem;">
@@ -46,6 +51,8 @@
 		<a href="cadastro_dog.html"><input type="image" src="assets/img/seta.png" alt="Submit" style="width: 4.5rem; margin-left: 4rem;"></a>
 		<!-- <a href="cadastro_dog.html"><img src="assets/img/seta.png" style="width: 4.5rem; margin-left: 4rem;"></a> -->
 	</div>
+
+
 </body>
 
 <style type="text/css">
@@ -74,11 +81,11 @@
 	form p{
 		text-align: center;
 	}
-	input[type=submit] {
+	input[type=submit], button, input[type=button] {
 		border-radius: 2rem;
 		width: 600px;
 		text-align: center;
-		background-color: ;
+		background-color: #dddddd;
 		cursor: pointer;
 		height: 100px;
 		border: none;
@@ -91,5 +98,16 @@
 		font-size: 45px;
 	}
 </style>
+
+<script>
+function foto() {
+  var x = document.getElementById("cliente");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 </html> 
