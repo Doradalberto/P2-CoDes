@@ -29,3 +29,7 @@ FALTAM:
 	Cadastrado? Vacina em dia? (pág 5)
 	Não é possível hospedar (pág 13)
 	Novo cliente agendamento início / fim (pág 15)
+
+Fernanderas:
+	Arrumar o problema do botao enviar do hotel e daycare
+	Arrumar o problema do botão próximo na página de agendamento

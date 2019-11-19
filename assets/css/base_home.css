@@ -173,6 +173,31 @@ form{
 	font-size: 4rem;
 }
 
+.proximo{ 
+	display: flex;
+	justify-content: center;
+	margin-top: 30rem;
+	text-decoration: none;
+	background-color: #fdad1a;
+	color: #ffffff;
+	font-size:60px;
+	border:none;
+	font-family: 'Muli', sans-serif;
+}
+
+.proximo_{
+	display: flex;
+	justify-content: center;
+	margin-bottom:1rem;
+	text-decoration: none;
+	background-color: #fdad1a;
+	color: #ffffff;
+	font-size:60px;
+	border:none;
+	font-family: 'Muli', sans-serif;
+
+}
+
 @media (max-width: 375px){
 	body{
 		display: flex;
