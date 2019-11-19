@@ -29,6 +29,9 @@ FALTAM:
 	Cadastrado? Vacina em dia? (pág 5)
 	Não é possível hospedar (pág 13)
 	Novo cliente agendamento início / fim (pág 15)
+Guimba:
+	Como linka um botão input do tipo submit?- exemplo: quando vc submita um cadastro ele te encaminha pra outra página.
+
 
 Fernanderas:
 	Arrumar o problema do botao enviar do hotel e daycare

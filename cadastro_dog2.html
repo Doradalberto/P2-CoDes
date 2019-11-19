@@ -21,7 +21,7 @@
 	</div>
 	<div class="Container2_lista"> 
 		
-	<form class="cadastro-dono" method="post">
+	<form class="cadastro-dono" method="post" action="adiciona_day.html" style="text-decoration: none;">
 		<p>Cadastro Animal</p>
 
 		<div class="item">
@@ -29,7 +29,7 @@
 		</div>
 
 		<div class="item">
-			<input placeholder="Nome..." type="text" name="texto" required>
+			<input placeholder="Nome..." type="text" name="texto" id="nome_dog2" required>
 		</div>
 
 		<div class="item">
@@ -59,8 +59,6 @@
 			<textarea placeholder=""></textarea>
 		</div>
 		<a href="home.html"><input type="submit" name="Submit this form" value="Enviar"></a>
-		
-
 
 	</form>
 
@@ -105,11 +103,11 @@
 		height: 10rem;
 		border-radius: 2rem;
 	}
-	input[type=submit] {
+	input[type=submit], a.forms {
 		border-radius: 2rem;
 		width: 500px;
 		text-align: center;
-		background-color: ;
+		background-color: #dddddd ;
 		cursor: pointer;
 		height: 100px;
 		border: none;
