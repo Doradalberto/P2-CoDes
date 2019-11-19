@@ -173,6 +173,25 @@ form{
 	font-size: 4rem;
 }
 
+.agendamento_ {
+	width: 100%;
+	height: 25rem;
+	top: 55rem;
+	position: relative;
+}
+
+.agendamento_ p {
+	font-size: 4.3rem;
+	margin-right: 2rem;
+}
+
+.agendamento2 {
+	display: flex;
+	flex-direction: row;
+	margin: 2rem 3rem;
+}
+
+
 @media (max-width: 375px){
 	body{
 		display: flex;
