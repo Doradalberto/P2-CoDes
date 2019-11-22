@@ -20,6 +20,7 @@ form {
 	font-family: 'Muli', sans-serif;
 }
 
+
 .Botao {
 	cursor: pointer;
 	width: 100%;
@@ -85,6 +86,7 @@ form {
 }
 
 .Container2, .Container2-{
+	position: relative;
 	background-color: #fdad1a;
 	align-items: center;
 	font-size: 4rem;
