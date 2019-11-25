@@ -24,6 +24,12 @@
 		<form class="bituga" method="post">
 			
 			<div class="item">
+				<div class="peso">
+					<p> Peso: </p><input type="number" class="pesoo" min=0 max=150/><p> kg </p>
+				</div>
+			</div>
+
+			<div class="item">
 				<p> Castrado? </p>
 			</div>
 
@@ -93,6 +99,18 @@
 </body>
 
 <style>
+
+.peso {
+	display: inline-flex;
+}
+
+.pesoo {
+	width:10rem ;
+	height:6rem;
+	font-size:5rem;
+	margin-left: 1rem;
+}
+
 .bituga {
 	flex-direction: column;
 	width: 100%;
