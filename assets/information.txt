@@ -4,6 +4,7 @@
 	Azul: #697fe4
 	Amarelo: #fdad1a
 	Vermelho: #ff3028
+	Cinza: #dddddd
 
 
  > Fonte
