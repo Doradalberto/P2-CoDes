@@ -37,21 +37,25 @@
 		</li>
 	</div>
 	<div class="Container4">
-		<p> Total de Pets: 3 </p>
+		<p> Total de Pets: <span class="diminui">3</span> </p>
 	</div>
 
 	<div class="Container5">
 		<p> Capacidade Máxima: 15 </p>
 	</div>
 	<script>
+		var subtrair = document.getElementsByClassName("diminui")[0];
 		var closebtns = document.getElementsByClassName("close");
 		var i;
 
 		for (i = 0; i < closebtns.length; i++) {
 		  closebtns[i].addEventListener("click", function() {
 		    this.parentElement.style.display = 'none';
+		    subtrair.innerHTML = parseInt(subtrair.innerHTML) - 1;
 		  });
 		}
+
+
 	</script>
 
 </body>
