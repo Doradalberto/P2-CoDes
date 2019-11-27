@@ -42,15 +42,17 @@
 		</li>
 	</div>
 	<div class="Container4">
-		<p> Total de pets: 4 </p>
+		<p> Total de pets: <span class="diminui">4</span></p>
 	</div>
 	<script>
+		var subtrair = document.getElementsByClassName("diminui")[0];
 		var closebtns = document.getElementsByClassName("close");
 		var i;
 
 		for (i = 0; i < closebtns.length; i++) {
 		  closebtns[i].addEventListener("click", function() {
 		    this.parentElement.style.display = 'none';
+		    subtrair.innerHTML = parseInt(subtrair.innerHTML) - 1;
 		  });
 		}
 	</script>
