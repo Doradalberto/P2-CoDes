@@ -35,11 +35,11 @@
 			<div class="item" style="margin-bottom: 2rem">
 				<div class="arruma">
 					<label class="circulo" style="margin-right: 2rem;">Sim
-						<input type="radio" name="radio" required>
+						<input type="radio" name="radio" id="myCheck-sim" onclick="myFunction()" required>
 						<span class="checkmark"></span>
 					</label>
-					<label class="circulo">Não
-						<input type="radio" name="radio" required>
+					<label class="circulo-nao">Não
+						<input type="radio" name="radio" id="myCheck-nao" onclick="myFunction()" required>
 						<span class="checkmark"></span>
 					</label>
 				</div>
@@ -53,11 +53,11 @@
 			<div class="item" style="margin-bottom: 2rem">
 				<div class="arruma">
 					<label class="circulo" style="margin-right: 2rem;">Sim
-						<input type="radio" name="radio" required>
+						<input type="radio" name="radio" id="myCheck-sim2" onclick="myFunction()" required>
 						<span class="checkmark"></span>
 					</label>
-					<label class="circulo">Não
-						<input type="radio" name="radio" required>
+					<label class="circulo-nao">Não
+						<input type="radio" name="radio" id="myCheck-nao" onclick="myFunction()" required>
 						<span class="checkmark"></span>
 					</label>
 				</div>
@@ -71,11 +71,11 @@
 			<div class="item" style="margin-bottom: 2rem">
 				<div class="arruma">
 					<label class="circulo" style="margin-right: 2rem;">Sim
-						<input type="radio" name="radio" required>
+						<input type="radio" name="radio" id="myCheck-sim3" onclick="myFunction()" required>
 						<span class="checkmark"></span>
 					</label>
-					<label class="circulo">Não
-						<input type="radio" name="radio" required>
+					<label class="circulo-nao">Não
+						<input type="radio" name="radio" id="myCheck-nao" onclick="myFunction()" required>
 						<span class="checkmark"></span>
 					</label>
 				</div>
@@ -95,9 +95,28 @@
 		</div>
 		<div class="Progress_Bar2" style="width: 50px; margin-top: 2rem;">
 		</div>
-		<a href="finalizado.html"><img src="assets/img/seta.png" style="width: 4.5rem; margin-left: 4rem;"></a>
-	</div>
+		<a id="sim" href="finalizado.html" style="display: none"><img src="assets/img/seta.png" style="width: 4.5rem; margin-left: 4rem; "></a>
+		<a id="nao" href="nao_completou.html" ><img src="assets/img/seta.png" style="width: 4.5rem; margin-left: 4rem; "></a>
 </body>
+
+<script>
+	function myFunction() {
+  		var S = document.getElementById("sim");
+  		var N = document.getElementById("nao");
+  
+  		var checkBoxsim = document.getElementById("myCheck-sim");
+  		var checkBoxsim2 = document.getElementById("myCheck-sim2");
+  		var checkBoxsim3 = document.getElementById("myCheck-sim3");
+  
+  		if (checkBoxsim.checked == true && checkBoxsim2.checked == true && checkBoxsim3.checked == true){
+   		 	S.style.display = "block";
+    		N.style.display = "none"; } 
+  		else {
+   		 	S.style.display = "none";
+    		N.style.display = "block";
+  		}
+	}
+</script>
 
 <style>
 
@@ -132,7 +151,7 @@
 	margin: 45px;
 	}
 
-.circulo {
+.circulo, .circulo-nao {
   display: block;
   position: relative;
   padding-left: 6rem;
@@ -146,6 +165,12 @@
 }
 
 .circulo input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.circulo-nao input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -169,6 +194,14 @@
   background-color: #fdad1a;
 }
 
+.circulo-nao:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.circulo-nao input:checked ~ .checkmark {
+  background-color: #fdad1a;
+}
+
 .checkmark:after {
   content: "";
   position: absolute;
@@ -179,7 +212,7 @@
   display: block;
 }
 
-.circulo .checkmark:after {
+.circulo .circulo-nao .checkmark:after {
  	top: 20px;
 	left: 20px;
 	width: 30px;
