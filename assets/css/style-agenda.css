@@ -692,6 +692,11 @@ body {
   font-size: 3rem;
 }
 
+.Container5 a {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
 .Container5-coisa {
 
 }
@@ -703,7 +708,7 @@ body {
   flex-wrap: wrap;
 }
 
-.Container5-horas p {
+.Container5-horas a {
   margin: 1rem 2rem 1rem 0;
   border-style: solid;
   border-width: 0.2rem;
@@ -711,9 +716,10 @@ body {
   border-radius: 2rem;
   width: 13rem;
   text-align: center;
+  text-decoration: none;
 }
 
-.Container5-horas p:hover{
+.Container5-horas a:hover{
   background-color: white;
   color: #7c6dc0 !important;
 }
