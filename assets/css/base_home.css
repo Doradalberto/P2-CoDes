@@ -113,6 +113,25 @@ form {
 	border-width: 0.5rem;*/
 	}
 
+.Container2a {
+	position: relative;
+	background-color: #fdad1a;
+	align-items: center;
+	font-size: 4rem;
+	text-align: center;
+	height: 9.375rem;
+	margin-top: 4rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	display: flex;
+	border-radius: 2rem;
+	color:white;
+
+	/*border-style: solid;
+	border-color: yellow;
+	border-width: 0.5rem;*/
+	}
+
 .Container2- {
 	width: 30rem !important;
 }
