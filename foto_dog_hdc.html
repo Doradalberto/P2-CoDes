@@ -23,66 +23,35 @@
 	<div class="Container2_lista"> 
 
 		<form class="cadastro-dono" method="post">
-		<p>Cadastro dono</p>
-
-		<div class="item">
-			<label for ="Nome">Nome:</label>
-		</div>
-
-		<div class="item">
-			<input placeholder="Nome..." type="text" name="texto" required>
-		</div>
-
-		<div class="item">
-			<label for="contato">Contato:</label>
-		</div>
-
-		<div class="item">
-			<input type="email" name="email" placeholder="Email..." required>
-		</div>
-
-		<div class="item">
-			<input type="number" name="celular" placeholder="Celular..." required>
-		</div>
-
-		<div class="item">
-			<label for="cpf">CPF:</label>
-		</div>
-
-		<div class="item">
-			<input type="number" name="cpf" placeholder="CPF..." required>
-		</div>
-
-		<div class="item">
-			<label for="numero">Endereço:</label>
-		</div>
-
-		<div class="item">
-			<input type="text" name="endereco" placeholder="Rua..." required>
-		</div>
-
-		<div class="item">
-			<input type="number" name="numero" placeholder="Número..." required>
-		</div>
-
-		<div class="item">
-			<input type="number" name="cep" placeholder="CEP..." required>
-		</div>
-
-	</form>
+			<p>Cadastro Animal</p>
+		</form>
+	</div>
+	<div class="foto_">
+		<video class="foto" autoplay="true" id="videoElement"></video>
+	</div>
+	<div class="Container2">
+		<p style="text-decoration:none" onclick="pauseVid()" class="Botao">Tirar foto</p>
 	</div>
 	<div class="Container3">
-		<a href="cadastro.html"><img src="assets/img/seta_v.png" style="width: 4.5rem; margin-right: 4rem"></a>
+		<a href="cadastro_dog_hdc.html"><img src="assets/img/seta_v.png" style="width: 4.5rem; margin-right: 4rem"></a>
 		<div class="Progress_Bar" style="width: 400px; margin-top: 2rem;">
 		</div>
 		<div class="Progress_Bar2" style="width: 200px; margin-top: 2rem;">
 		</div>
-		<a href="foto_humano.html"><input type="image" src="assets/img/seta.png" alt="Submit" style="width: 4.5rem; margin-left: 4rem;"></a>
+		<a href="cadastro-bituga.html"><input type="image" src="assets/img/seta.png" alt="Submit" style="width: 4.5rem; margin-left: 4rem;"></a>
 		<!-- <a href="cadastro_dog.html"><img src="assets/img/seta.png" style="width: 4.5rem; margin-left: 4rem;"></a> -->
 	</div>
 </body>
 
 <style type="text/css">
+	.foto_ {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+	.foto {
+		width: 45rem;
+	}
 	.cadastro-dono {
 		flex-direction: column;
 		width: 100%;
@@ -123,5 +92,24 @@
 		font-size: 45px;
 	}
 </style>
+
+<script type="text/javascript">
+	var video = document.querySelector("#videoElement");
+
+	if (navigator.mediaDevices.getUserMedia) {
+	  navigator.mediaDevices.getUserMedia({ video: true })
+	    .then(function (stream) {
+	      video.srcObject = stream;
+	    })
+	    .catch(function (err0r) {
+	      console.log("Something went wrong!");
+	    });
+	}
+
+	function pauseVid(){
+		video.pause();
+	}
+
+</script>
 
 </html> 
